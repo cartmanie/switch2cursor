@@ -74,7 +74,7 @@ A JetBrains IDE plugin that enhances development efficiency by enabling seamless
 
 ### Requirements
 - [Cursor](https://cursor.com) installed
-- Compatible with all JetBrains IDEs (version 2022.3 and above)
+- Compatible with all JetBrains IDEs (version 2021.2 and above)
 
 ## 🧑‍💻 Developer Guide
 

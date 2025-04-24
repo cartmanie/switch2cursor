@@ -6,14 +6,9 @@ import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.diagnostic.Logger
 import com.intellij.openapi.project.Project
-import com.intellij.openapi.actionSystem.ActionUpdateThread
 
 class OpenProjectInCursorAction : AnAction() {
     private val logger = Logger.getInstance(OpenProjectInCursorAction::class.java)
-
-    override fun getActionUpdateThread(): ActionUpdateThread {
-        return ActionUpdateThread.BGT
-    }
 
     override fun actionPerformed(e: AnActionEvent) {
         val project: Project = e.project ?: return

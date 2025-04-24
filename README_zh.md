@@ -74,7 +74,7 @@
 
 ### 环境要求
 - 已安装 [Cursor](https://cursor.com)
-- 兼容所有 JetBrains IDE（2022.3 及以上版本）
+- 兼容所有 JetBrains IDE（2021.2 及以上版本）
 
 ## 🧑‍💻 开发者指南
 
